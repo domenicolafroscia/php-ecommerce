@@ -8,13 +8,16 @@
 
     <!-- Layout bootstrap modificato con Bootswatch -->
     <link rel="stylesheet" href="https://bootswatch.com/5/flatly/bootstrap.css">
+
+    <!-- Custom style -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <!-- Header -->
     <nav class="navbar navbar-expand-lg px-5" aria-label="Offcanvas navbar large" style="background-color: #007cdc;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">LOGO</a>
+            <a class="navbar-brand" href="http://localhost/boolean/php-ecommerce/?page=homepage.php">LOGO</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -26,20 +29,20 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="http://localhost/boolean/php-ecommerce/?page=homepage.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Chi siamo</a>
+                            <a class="nav-link" href="http://localhost/boolean/php-ecommerce/?page=about.php">Chi siamo</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Servizi</a>
+                            <a class="nav-link" href="http://localhost/boolean/php-ecommerce/?page=services.php">Servizi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contatti</a>
+                            <a class="nav-link" href="http://localhost/boolean/php-ecommerce/?page=contacts.php">Contatti</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
+                                Area riservata
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -59,43 +62,3 @@
             </div>
         </div>
     </nav>
-
-    <!-- Main -->
-    <div class="container my-5">
-        <div class="row">
-
-            <div class="col-9">
-                <h1>Chi siamo?</h1>
-                <p>Siamo.......</p>
-            </div>
-
-            <div class="col-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <footer class="px-5 py-3" style="background-color: #007cdc;">
-        <div class="container-fluid">
-            <p class="text-light">Copyright &copy; 2024</p>
-        </div>
-    </footer>
-
-
-
-
-
-    <script src="https://bootswatch.com/_vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://bootswatch.com/_vendor/prismjs/prism.js"></script>
-</body>
-
-</html>
